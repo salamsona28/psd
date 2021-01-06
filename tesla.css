@@ -1,0 +1,272 @@
+*{margin:0;
+padding: 0;}
+header{
+	width:960px;
+	height: auto;
+	background-color: #000;
+margin: 0 auto;
+}
+nav{
+	width: 960px;
+	height: auto;
+	background-color: #000;
+
+}
+.nav ul li{
+	
+	
+	display:inline-block;
+	list-style-type:none;
+
+	position: relative;
+	 }
+.nav ul li a{
+	font-size: 20px;
+	display: block;
+	padding: 20px 20px;
+	font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+	}
+.nav ul li a:hover{
+	
+	background-color: red;
+	color: yellow;
+	 
+}
+	.nav ul li ul{
+	    position: absolute;
+		background-color: #000;
+		left: -9999px;
+		
+	}
+	.nav ul li:hover ul{
+		left: 0px;
+	}
+	.nav ul li ul li{
+		 width: 200px;	
+		 height: auto;
+		 border-bottom: 1px solid #fff;	
+	}
+	.banner-cover{
+		height: 50vh; 
+		 background-position: center;
+		 background-size: cover;
+		 background-repeat: no-repeat;
+
+		
+	}
+	.banner-text{
+		padding: 100px;
+		text-align: center;
+	} 
+	.banner-text button{
+         font-size:20px;
+		font-weight: bold;
+		test-transform: uppercase;
+		padding: 20px;
+		border: 0;
+		background-bolor: #000: 
+	}
+	.about-logo img{
+		width: 300px;
+		height: auto;
+		margin: 0px 20px;
+		matgin-bottom: 10px;
+		box-shadow: opx 0px 1 0px 0px #000;
+		
+	}
+	 	.about-text{
+	 		width:520px;
+	 		height: auto;
+	 		padding: 0px 20px;  
+	 		
+	 	}
+	 	
+	 	.row{
+	 		overflow: auto;
+	 	}
+	 	.about-text h2{
+	 		font-size:17px;
+	 		font-weight: bold;
+	 		text-transform: uppercase;
+	 		margin-left: 200px;
+	 	}
+      .about-text p{
+      	width: 910px;
+      	font-size:15px;
+         margin-left: 20px;
+          padding: 0px 20px;
+	 	}
+   
+	 	.col{
+	 		float: left ;
+
+	 	}
+	 	.about-us-section{
+	 		margin: 10px 175px;
+	 		background-color: #DCE7E5;
+            padding: 40px 0px;
+	 	}
+	 	
+
+	 	
+	 	.title h2{
+	 		font-size: 20px;
+	 		font-weight:bold;
+	 		text-transform: uppercase;
+	 		letter-spacing: 1px;
+	 		border-bottom: 1px solid #fff;
+	 		text-align:center;
+	 		margin: 0 auto;
+	 		padding: 20px 0px;
+	 	}
+	 	.service{
+
+	 		background-color: #bbb;
+	 		width: 318px;
+	 		height: auto;
+	 		border: 1px solid #fff;
+	 		text-align: center;
+	 		float: left;
+
+	 		
+	 		
+	 	}
+	 	.service-section{
+	 		 width: 960px;
+	 		height: auto;
+	 		background: #bbb;
+	 		margin: 0 auto;
+	 	
+	 	    
+          }
+	 	.service h3{
+	 		font-size: 20px;
+	 		font-weight: bold;
+	 		margin-bottom: 10px; 
+	 		padding-top: 15px;
+
+	 		text-transform:uppercase;
+
+	 	}
+	 	.service p{
+	 		font-size: 15px;
+	 		color: gray;
+	 		line-height: 22px;
+	 		padding: 0px 15px ;
+
+	 	
+	 	}
+	 	.serve-icon i{
+	 		font-size: 40px;
+	 		margin-top: 10px;
+	 		margin-bottom: 10px;
+             color:#fff;
+             transection: .5s;
+
+	 	}
+	 	.serv icon i:hover{
+	 		color:yellow;
+	 		transform-scale:(.8);
+
+
+	 	}
+
+	 	.contact{
+	 		background-color: #fff;
+	 		padding:15px 15px 15px 80px; 
+	 		boxshadow: 0px 0px 10px 0px;
+	 		width: 200px;
+	 		display: inline-block;
+	 		
+	 
+	 		}
+
+	 	.cont-icon{
+	 	
+	 		width: 50px;
+	 		height: 50px;
+	 		float: left;
+	 		top: 0px;
+	 		left: 15px;
+	 		background-color: #222;
+	 		text-align: center;
+	 		color: fff;
+	 		line-height: 50px;
+	 		font-size: 30px;
+	 		transition:.5s;
+
+
+	 	}
+	 	.cont-icon i:hover{
+	 		color: yellow;
+	 		transform: scale(.8);
+}
+	 	
+	 	.contact-us h3{
+	 		padding: 0;
+	 		margin:10px;
+	 		font-size:25px;
+	 		line-height: 20px;
+
+	 	}
+	 	.contact-section{
+	 		width: 960px;
+	 		height: 400px;
+	 		background-color: #bbb;
+	 		margin-top: 120px;
+	 		padding: 140px 0px;
+	 		margin: 0 auto;
+	 	}
+
+      .contact-form{
+	 		width:620px;
+	 		height: auto;
+	 		margin: 0 auto;
+	 		margin-top: 10px;
+	 	}
+	 	.inputtag input{
+	 		font-size: 20px;
+	 		texttransform:capitalise;
+	 		padding: :10px 10px;
+	 		width:80%;
+	 		margin:8px 0px;
+
+
+	 	}
+	 	.inputtag textarea{
+	 		width:518px;
+	 		height:200px;
+	 	}
+	 	.inputtag button{
+	 		width: 80%;
+	 		padding: 10px 0px;
+	 		font-size:20px;
+	 		font-weight: bold;
+	 		margin-top: 20px;
+	 		font-weight: bold; 
+	 	}
+.footer-text{
+	width: 930px;
+	margin:0 auto;
+	height: 30px;
+	background-color: #000;
+	color:#fff;
+	padding: 20px;
+}
+.footer-icon{
+	float: left;
+}
+
+.footer-icon i{
+	font-size:30px;
+	padding: 0px 10px;
+
+}
+
+.footer-icon i:hover{
+	color: yellow;
+
+
+}
